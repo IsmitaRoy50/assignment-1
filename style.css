@@ -4,14 +4,13 @@
 }
 .header{
     background-color: #fff8f3;
-    background-image: url(images/header_bg.png);
-    background-repeat: no-repeat;
     background-position: top bottom left;
 }
 .banner{
     display: flex;
-    margin: 50 0 100px;
-    text-align: center;
+    padding: 8px;
+    align-items: center;
+    margin: 0;
     
     
 }
@@ -20,6 +19,7 @@
     font-size: 20px;
     font-weight: 700;
     font-style: normal;
+    color: black;
 
 }
 
@@ -30,6 +30,7 @@
 .sub-title{
     font-weight: 100;
     font-size: 15px;
+    color: black;
 }
 /* main section*/
 main{
