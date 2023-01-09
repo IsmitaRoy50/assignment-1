@@ -5,6 +5,7 @@
 .header{
     background-color: #fff8f3;
     background-position: top bottom left;
+    display: flex;
 }
 .banner{
     display: flex;
@@ -36,19 +37,23 @@
 main{
     max-width:1140px;
     margin: 0;
+    padding: 0;
+}
+.section-1{
+    
 }
 .My-plans{
   margin-top: 130px;
-  background-color: #fff8f3;
-  border-radius: 10px;
-  padding: 130px 150px;
+  padding: 8px;
   text-align: center;
+  
   
 }
 .section-title{
   color: black;
   padding-bottom: 76px;
   font-size: 30px;
+  text-align: center;
   
 
 }
@@ -60,6 +65,7 @@ main{
    display: flex;
    justify-content: space-around;
    font-size: 18px;
+   
 }
 
 .gradient{
