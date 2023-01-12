@@ -1,14 +1,53 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: sans-serif;
 }
 .header{
+
+}
+.section-1{
+    margin: 0;
+}
+.hi{
+    display: flex;
+}
+.hello{
+    height: 500px;
+    background-image: url("../images/banner/banner1.png");
+    background-repeat: no-repeat;
+    text-align: right
+    padding-bottom: 20%;
+    background-size:cover;
+    margin-bottom: 50px;
+    
+    
+}
+ h1{
+    font-size: 80px;
+    font-family: sans-serif;
+    font-weight: 700
+    
+}
+.pra{
+    color: black;
+    font-size: small;
+    font-weight: 400;
+}
+ .btnn{
+    background-color: orangered;
+    color: white;
+    border-radius: 9px;
+    padding: 10px;
+ }
+.sections-2{
     background-color: #fff8f3;
     background-position: top bottom left;
     display: flex;
+    margin: 0 auto;
 }
 .banner{
-    display: flex;
+    display:flex;
     padding: 8px;
     align-items: center;
     margin: 0;
@@ -73,17 +112,17 @@ main{
 
     border-radius: 10px;
     padding: 130px 130px;
-    text-align: center;
+    text-align: left bottom ;
 }
 .gradient-container{
-    background-image: url(images/watch.png);
+    background-image: url("images/watch.png");
+    background-blend-mode:color-burn;
     width: 1140px;
     height: 300px;
     left: 130px;
     right: 130px;
     top: 226px;
-    text-align: left;
-    align-items: left;
+    
 
 }
 .color-over{
@@ -109,15 +148,43 @@ main{
     padding: 130px 130px;
     text-align: center;
 }
+.footer-sub{
+    display: flex;
+    align-items: center;
 
+
+}
 .future-info{
     display: flex;
+    justify-content: stretch;
+    align-items:center;
+    
     
 }
+
 h3{
     color: white;
+    margin: 5px;
 }
 p{
     color: white;
-}
+    margin: 8px;
 
+}
+.btn-1{
+    background-color: black;
+    color: white;
+    text-align: left;
+    padding: 8px;
+    border-radius: 5px;
+    margin: 6px;
+
+}
+.btn-2{
+    background-color: white;
+    color: orangered;
+    padding: 8px;
+    border-radius: 5px;
+    margin: 3px;
+
+}
